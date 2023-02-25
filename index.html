@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ----------------header------------------- -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">My Website</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- ------------------------bootstrap example------------------ -->
+    <section>
+      <h2 id="heading">Bootstrap Example</h2>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active carousel-img bg-img-1">
+            <!-- <img
+              src="https://picsum.photos/seed/picsum/200/300"
+              class="d-block w-100"
+              alt="..."
+            /> -->
+          </div>
+          <div class="carousel-item carousel-img bg-img-2">
+            <!-- <img
+              src="https://picsum.photos/200/300?grayscale"
+              class="d-block w-100"
+              alt="..."
+            /> -->
+          </div>
+          <div class="carousel-item carousel-img bg-img-3">
+            <!-- <img
+              src="https://picsum.photos/200/300/?blur"
+              class="d-block w-100"
+              alt="..."
+            /> -->
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- ----------------content------------- -->
+    <div class="main-body">
+      <h2>Some Content</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a
+        imperdiet ligula, vel luctus dui. Quisque nunc dui, semper in
+        pellentesque quis, porta in arcu. Nam ullamcorper arcu eu euismod
+        rhoncus. Quisque commodo, libero quis accumsan feugiat, eros nulla
+        aliquam dui, non commodo magna dolor sed ligula. Cras sodales interdum
+        gravida. Praesent efficitur commodo sollicitudin. Aliquam non nisl at
+        erat imperdiet gravida vitae nec velit. Phasellus ac ligula porta felis
+        commodo faucibus et euismod nulla. Vivamus fermentum enim vitae vehicula
+        malesuada. Ut in mauris vitae diam porta finibus. Aliquam eu libero ac
+        nibh pellentesque bibendum. Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit. Pellentesque auctor magna mi, a rhoncus massa facilisis
+        id.
+      </p>
+      <div class="carding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card Title</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Quisque a imperdiet ligula, vel luctus dui. Quisque nunc
+                    dui, semper in pellentesque quis, porta in arcu. Nam
+                    ullamcorper arcu eu euismod rhoncus. Quisque commodo, libero
+                    quis accumsan feugiat, eros nulla aliquam dui, non commodo
+                    magna dolor sed ligula. Cras sodales interdum gravida.
+                  </p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card Title</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Quisque a imperdiet ligula, vel luctus dui. Quisque nunc
+                    dui, semper in pellentesque quis, porta in arcu. Nam
+                    ullamcorper arcu eu euismod rhoncus. Quisque commodo, libero
+                    quis accumsan feugiat, eros nulla aliquam dui, non commodo
+                    magna dolor sed ligula. Cras sodales interdum gravida.
+                  </p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Card Title</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Quisque a imperdiet ligula, vel luctus dui. Quisque nunc
+                    dui, semper in pellentesque quis, porta in arcu. Nam
+                    ullamcorper arcu eu euismod rhoncus. Quisque commodo, libero
+                    quis accumsan feugiat, eros nulla aliquam dui, non commodo
+                    magna dolor sed ligula. Cras sodales interdum gravida.
+                  </p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------------form--------------- -->
+    <div class="form">
+      <h2>Form</h2>
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Message</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <!-- -------------table----------- -->
+    <footer>
+      <h2>Table</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    </footer>
+  </body>
+</html>
